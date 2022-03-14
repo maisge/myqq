@@ -72,6 +72,9 @@ get_admin_list("机器人QQ号", "收信群_讨论组")
 # 取群成员列表
 get_group_member_list("机器人QQ号", "收信群_讨论组")
 
+# 取QQ头像
+qq_head_portrait(qq_number)
+
 ```
 -----
 -----
