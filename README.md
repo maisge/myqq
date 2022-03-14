@@ -69,6 +69,24 @@ get_group_member_list("机器人QQ号", "收信群_讨论组")
 
 ```
 
+_____
+_____
+# 高级应用
+```python
+bot = Send("http://localhost:8889/MyQQHTTPAPI", "666")
+
+send = bot.div("Api_CreatQrCodeInfo", "")
+print(send)
+
+
+div("api名字", "{'c1':"",'c2':""}")
+
+
+
+
+
+
+```
 
 
 
