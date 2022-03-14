@@ -5,6 +5,11 @@ QQ robot python sdk
 ```python
 pip install myqq
 ```
+#### 升级：
+
+```python
+ pip install --upgrade myqq
+```
 
 -----
 #### 创建你的第一个机器人
