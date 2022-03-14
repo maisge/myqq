@@ -68,6 +68,17 @@ get_admin_list("机器人QQ号", "收信群_讨论组")
 get_group_member_list("机器人QQ号", "收信群_讨论组")
 
 ```
+-----
+-----
+```pyhton
+# 
+tool.python_to_json(content=send)
+
+
+
+```
+
+
 
 _____
 _____
