@@ -70,9 +70,11 @@ get_group_member_list("机器人QQ号", "收信群_讨论组")
 ```
 -----
 -----
+
+# 类型转换 
 ```pyhton
-# 
-tool.python_to_json(content=send)
+# python转换json
+tool.python_to_json(content)
 
 
 
