@@ -74,12 +74,14 @@ _____
 # 高级应用
 ```python
 bot = Send("http://localhost:8889/MyQQHTTPAPI", "666")
-
-send = bot.div("Api_CreatQrCodeInfo", "")
+# 取好友列表
+send = bot.div("Api_CreatQrCodeInfo", {"c1": 3414744631})
 print(send)
 
 
-div("api名字", "{'c1':"",'c2':""}")
+
+# div自定义api
+div("api名称", {'c1':"",'c2':""})
 
 
 
