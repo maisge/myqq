@@ -95,7 +95,7 @@ tool.json_to_python(content)
 
 _____
 _____
-# 高级应用
+# 高级应用(支持所有官方api)
 ```python
 bot = Send("http://localhost:8889/MyQQHTTPAPI", "666")
 # 取好友列表
