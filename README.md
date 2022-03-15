@@ -11,6 +11,14 @@ pip install myqq
  pip install --upgrade myqq
 ```
 
+### 如果没有文档中的功能, 请确保库是最新版本
+
+-----
+-----
+
+
+
+
 -----
 #### 创建你的第一个机器人
 ```python
@@ -40,7 +48,20 @@ print(f_list)
 
 ```
 
+-----
+##### 接受信息
+```python
+# 导入myqq库
+from myqq import send
+# 消息回调设置
+get = send.news('127.0.0.1', 5000)
 
+# 运行
+get_msg = get.run()
+
+# 输出
+print(get_msg)
+```
 
 
 
