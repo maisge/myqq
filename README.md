@@ -1,3 +1,5 @@
+# [最新文档地址](https://www.kancloud.cn/pythonnic/python/2679626
+)
 # myqq
 QQ robot python sdk
 #### 安装：
